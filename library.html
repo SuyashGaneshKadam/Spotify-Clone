@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify - Your Library</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="library.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -19,8 +19,236 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header id="nav" class="d-flex flex-column">
+      <!-- Header content -->
+      <a href="#"
+        ><div id="logo">
+          <img alt="Spotify-Logo" src="./Assets/Spotify logo.svg" /></div
+      ></a>
+      <div id="nav-top">
+        <div>
+          <!-- <i class="fa-solid fa-house" style="color: #ffffff"></i> -->
+          <div class="box">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="31"
+              height="34"
+              viewBox="0 0 31 34"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_306_615)">
+                <path
+                  d="M15.5849 19.6659C14.6021 19.6659 13.6596 20.0888 12.9646 20.8417C12.2697 21.5946 11.8793 22.6157 11.8793 23.6804V33.0822H19.2906V23.6804C19.2906 22.6157 18.9002 21.5946 18.2052 20.8417C17.5103 20.0888 16.5677 19.6659 15.5849 19.6659Z"
+                  fill="white"
+                />
+                <path
+                  d="M17.2376 2.04697C16.784 1.60463 16.1953 1.35986 15.5849 1.35986C14.9746 1.35986 14.3858 1.60463 13.9322 2.04697L0.762268 14.8879V28.8047C0.762268 29.9404 1.17871 31.0296 1.91999 31.8326C2.66126 32.6357 3.66665 33.0868 4.71497 33.0868H9.40881V23.6809C9.40881 21.9064 10.0595 20.2046 11.2177 18.9498C12.376 17.6951 13.9469 16.9902 15.5849 16.9902C17.2229 16.9902 18.7938 17.6951 19.9521 18.9498C21.1103 20.2046 21.761 21.9064 21.761 23.6809V33.0828H26.4548C27.5032 33.0828 28.5086 32.6317 29.2498 31.8286C29.9911 31.0256 30.4076 29.9364 30.4076 28.8007V14.8839L17.2376 2.04697Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_306_615">
+                  <rect
+                    width="29.6453"
+                    height="32.1157"
+                    fill="white"
+                    transform="translate(0.762268 0.932129)"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <a href="./index.html">Home</a>
+        </div>
+        <div>
+          <!-- <i class="fa-solid fa-magnifying-glass" style="color: #ffffff"></i> -->
+          <div class="box">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+            >
+              <path
+                d="M30.4073 28.8279L22.6723 21.0929C24.6816 18.6356 25.6695 15.5 25.4316 12.3347C25.1938 9.16938 23.7485 6.21658 21.3946 4.08705C19.0407 1.95752 15.9584 0.814177 12.7852 0.893518C9.61198 0.972858 6.59065 2.26881 4.34614 4.51332C2.10164 6.75782 0.805683 9.77916 0.726343 12.9524C0.647002 16.1256 1.79034 19.2079 3.91988 21.5618C6.04941 23.9157 9.0022 25.361 12.1675 25.5988C15.3328 25.8366 18.4684 24.8488 20.9257 22.8395L28.6607 30.5745L30.4073 28.8279ZM13.1142 23.1631C11.1598 23.1631 9.24925 22.5836 7.6242 21.4978C5.99915 20.4119 4.73258 18.8686 3.98465 17.063C3.23673 15.2573 3.04104 13.2704 3.42233 11.3536C3.80362 9.43668 4.74476 7.67592 6.12675 6.29393C7.50874 4.91194 9.2695 3.97079 11.1864 3.5895C13.1033 3.20821 15.0901 3.4039 16.8958 4.15183C18.7015 4.89976 20.2448 6.16633 21.3306 7.79137C22.4164 9.41642 22.996 11.327 22.996 13.2814C22.993 15.9013 21.951 18.413 20.0984 20.2656C18.2459 22.1181 15.7341 23.1602 13.1142 23.1631Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <a>Search</a>
+        </div>
+        <div>
+          <!-- <i class="fa-solid fa-book fa-shake" style="color: #ffffff"></i> -->
+          <div class="box">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="29"
+              height="29"
+              viewBox="0 0 29 29"
+              fill="none"
+            >
+              <rect
+                x="0.997498"
+                y="0.15979"
+                width="1.23522"
+                height="28.4101"
+                fill="white"
+              />
+              <rect
+                x="9.64404"
+                y="0.15979"
+                width="1.23522"
+                height="28.4101"
+                fill="white"
+              />
+              <rect
+                x="15.8201"
+                y="0.655029"
+                width="1.23522"
+                height="29.3017"
+                transform="rotate(-23.634 15.8201 0.655029)"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <a href="./library.html">Your Library</a>
+        </div>
+      </div>
+      <div id="nav-middle">
+        <p>Playlists</p>
+        <div>
+          <div
+            id="box-1"
+            class="box d-flex justify-content-center align-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="31"
+              height="31"
+              viewBox="0 0 31 31"
+              fill="none"
+            >
+              <path
+                d="M16.8201 14.0944V7.91833H14.3497V14.0944H8.17358V16.5649H14.3497V22.741H16.8201V16.5649H22.9962V14.0944H16.8201Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <span>Create Playlist</span>
+        </div>
+        <div>
+          <div
+            id="box-2"
+            class="box d-flex justify-content-center align-items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_306_628)">
+                <path
+                  d="M8.23299 1.31335C7.72879 1.3212 7.23557 1.46195 6.80317 1.72139C6.37076 1.98084 6.01447 2.34979 5.77027 2.79099C5.52608 2.34979 5.16979 1.98084 4.73738 1.72139C4.30497 1.46195 3.81176 1.3212 3.30755 1.31335C2.50378 1.34828 1.7465 1.69989 1.20116 2.29138C0.655812 2.88287 0.366729 3.66616 0.397065 4.47011C0.397065 7.50374 5.3028 11.0075 5.51146 11.1562L5.77027 11.3393L6.02908 11.1562C6.23774 11.0084 11.1435 7.50374 11.1435 4.47011C11.1738 3.66616 10.8847 2.88287 10.3394 2.29138C9.79404 1.69989 9.03676 1.34828 8.23299 1.31335Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_306_628">
+                  <path
+                    d="M0.396973 1.90271C0.396973 1.35042 0.844688 0.90271 1.39697 0.90271H10.1434C10.6957 0.90271 11.1434 1.35043 11.1434 1.90271V10.6491C11.1434 11.2014 10.6957 11.6491 10.1434 11.6491H1.39697C0.844687 11.6491 0.396973 11.2014 0.396973 10.6491V1.90271Z"
+                    fill="white"
+                  />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <span>Liked Songs</span>
+        </div>
+      </div>
+      <div id="nav-bottom-img">
+        <img src="./Assets/LibraryNavImage.svg" />
+      </div>
+    </header>
+    <div id="main">
+      <div id="main-top" class="d-flex align-items-end">
+        <img src="./Assets/LibraryMainTopImage.svg" />
+
+        <div class="d-flex flex-column justify-content-center">
+          <h5>PLAYLIST</h5>
+          <h1>Pop Right Now</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus
+          </p>
+          <div class="d-flex justify-content-start align-items-center pb-4">
+            <p id="app-name">Spotify</p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="4"
+                height="4"
+                viewBox="0 0 4 4"
+                fill="none"
+              >
+                <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
+              </svg>
+              860,305 likes
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="4"
+                height="4"
+                viewBox="0 0 4 4"
+                fill="none"
+              >
+                <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
+              </svg>
+              100 songs, 5 hr 5 min
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="main-bottom">
+        <div>
+          <img src="./Assets/LibraryPlay.svg" />
+          <img src="./Assets/LibraryHeart.svg" />
+          <img src="./Assets/LibraryDots.svg" />
+        </div>
+        <div>
+          <img src="./Assets/LibraryMainBottomHeading.svg" />
+          <img src="./Assets/LibraryColumn1.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+          <img src="./Assets/LibraryColumns.svg" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <section id="musicPlayer">
+        <!-- Music Player content -->
+        <div id="musicPlayer-left">
+          <img src="./Assets/LibraryMPLeft.svg" />
+        </div>
+        <div id="musicPlayer-options">
+          <img src="./Assets/LibraryMPMiddle.svg" />
+        </div>
+        <div id="musicPlayer-right">
+          <img src="./Assets/LibraryMPRight.svg" />
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

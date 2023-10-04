@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Flow+Circular&family=Nunito&display=swap");
+
+* {
+  font-family: "Flow Circular", cursive;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Nav Bar Left */
+#nav {
+  width: 250px;
+}
+#logo {
+  padding: 10px;
+  padding-right: 50px;
+}
+#nav-middle > p {
+  color: #b3b3b3;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+#nav-bottom-img {
+  padding-top: 30px;
+}
+
+/* Main */
+#main {
+  width: 100vw;
+  padding-left: 250px;
+  padding-bottom: 90px;
+  box-sizing: border-box;
+}
+
+#main-top {
+  width: 100%;
+  background: linear-gradient(180deg, #90aea7 0%, #000 89.7%);
+}
+#main-top h5 {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.26px;
+}
+#main-top h1 {
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.8px;
+}
+#main-top p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.9%; /* 20.566px */
+  letter-spacing: -0.28px;
+  opacity: 0.7;
+}
+#app-name {
+  color: #fff !important;
+  font-size: 15px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 146.9% !important; /* 22.035px */
+  letter-spacing: -0.3px !important;
+  opacity: 1 !important;
+}
+
+#main-bottom {
+  width: 100%;
+  /* opacity: 0.15; */
+  background: #000;
+}
+
+/* Music Player */
+#musicPlayer {
+  height: 90px;
+}
+
+#musicPlayer-left {
+  bottom: 10px;
+}
+
+#musicPlayer-right {
+  position: fixed;
+  right: 12px;
+  bottom: 35px;
+}
+
+#musicPlayer-options {
+  left: 260px;
+  bottom: 15px;
+}
