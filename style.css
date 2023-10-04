@@ -292,10 +292,10 @@ nav {
 
 @media screen and (max-width: 1100px){
   #musicPlayer-right{
-    display: none;
+    display: none !important ;
   }
   #device{
-    display: none;
+    display: none !important;
   }
 }
 @media screen and (max-width: 500px) {
@@ -306,16 +306,16 @@ nav {
     display: none;
   } */
   #musicPlayer{
-    display: none;
+    display: none !important;
   }
   #nav{
     display: none !important;
   }
   main {
-    width: 100vw;
-    padding : 10px;
+    width: 100vw !important;
+    padding : 10px !important;
   }
   #featured {
-    margin: 10px;
+    margin: 10px !important;
   }
 }
