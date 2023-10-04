@@ -287,3 +287,35 @@ nav {
   line-height: normal;
   letter-spacing: 0.15px;
 }
+
+
+
+@media screen and (max-width: 1100px){
+  #musicPlayer-right{
+    display: none;
+  }
+  #device{
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* #musicPlayer-options{
+    display: none;
+  }
+  #musicPlayer-left{
+    display: none;
+  } */
+  #musicPlayer{
+    display: none;
+  }
+  #nav{
+    display: none !important;
+  }
+  main {
+    width: 100vw;
+    padding : 10px;
+  }
+  #featured {
+    margin: 10px;
+  }
+}
