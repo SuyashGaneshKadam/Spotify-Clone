@@ -82,6 +82,10 @@
   background: #000;
 }
 
+.main-bottom-buttons{
+  cursor: pointer;
+}
+
 /* Music Player */
 #musicPlayer {
   height: 90px;
